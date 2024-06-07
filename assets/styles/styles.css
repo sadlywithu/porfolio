@@ -1,0 +1,283 @@
+@import url(./fonts.css);
+*{
+    font-family: 'golos-r';
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html body{
+    background-color: #875798;
+}
+.section-header{
+    background: #875798 !important;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #875798 !important;
+}
+.about-me{
+    background-color: #875798;
+}
+.about-me .container{
+    background-image: url(../imgs/фон2.png);
+    background-repeat: no-repeat;
+    height: 2300px;
+}
+
+.my-porfolio .container{
+    height: 1000px;
+}
+ .section-header a{
+   font-weight: 800;
+}
+.about-me h2{
+    color: white;
+    padding-bottom: 60px;
+}
+.skills i{
+    margin-bottom: 20px;
+}
+.skills{
+    margin-bottom: 40px;
+    height: 250px;
+}
+.about-me h1,  .web-developer{
+    color: #7AE45F !important;
+}
+.btn-outline-primary {
+    --bs-btn-color: #7AE45F;
+    --bs-btn-border-color: #7AE45F;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #7AE45F;
+    --bs-btn-hover-border-color: #7AE45F;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #7AE45F;
+    --bs-btn-active-border-color:#7AE45F;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color:#7AE45F;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #7AE45F;
+    --bs-gradient: none;
+}
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: white;
+    --bs-navbar-disabled-color:white;
+    --bs-navbar-active-color: white;
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: white;
+    --bs-navbar-brand-hover-color: white;
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+    --bs-navbar-toggler-border-color: white;
+    --bs-navbar-toggler-border-radius: white;
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+a:hover {
+    color: #7AE45F !important; 
+}
+.section-header .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-outline-primary{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.my-scills h2{
+    font-size: 5rem;
+}
+
+.my-scills i{
+    color: #7AE45F;
+    font-size: 2rem;
+
+}
+.my-scills h3{
+    color: white ;
+    font-size: 1.4rem ;
+} 
+.col-6, .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.card {
+    height: 500px;
+    --bs-card-border-color: none;
+    
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    background-color: #875798;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+.card-body img{
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+    font-size: 2rem;
+}
+.card-body .btn{
+    --bs-btn-color: #7AE45F;
+    --bs-btn-border-color: #7AE45F;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #7AE45F;
+    --bs-btn-hover-border-color: #7AE45F;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #7AE45F;
+    --bs-btn-active-border-color:#7AE45F;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color:#7AE45F;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #7AE45F;
+    --bs-gradient: none;
+    background-color: #875798;
+}
+p{
+    font-family: 'Monsterrat', sans-serif;
+}
+.my-porfolio h2{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.my-porfolio{
+    padding-bottom: 300px;
+}
+.life img{
+    margin-bottom: 60px;
+}
+.life{
+    padding-bottom: 150px;
+}
+.card img{
+    height: 200px;
+}
+.card{
+    margin-bottom: 60px;
+}
+
+.btn{
+    width: 60%;
+    height: 50px;
+}
+
+
+.obr-svyaz .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.obr-svyaz .btn{
+    
+    margin-top: 40px;
+}
+
+.obr-svyaz h2{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.footer i, p{
+    color: #7AE45F;
+    font-size: 1.3rem;
+    
+}
+footer{
+    border-top: 2px solid #7AE45F ;
+    margin-top: 200px;
+    padding-top: 10px;
+}
+footer i{
+    font-size: 30px !important;
+    margin-left: 14px;
+}
+
+.obratnuj-zvonok{
+	width:100%;
+	max-width:350px;
+}
+.form-zvonok{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	padding:0 20px;
+	box-sizing:border-box;
+}
+.form-zvonok div{
+	padding:15px 0;
+}
+.bot-send-mail{
+	box-sizing:border-box;
+	width:100%;
+}
+.form-zvonok label,.form-zvonok input{
+    border-radius: 10px;
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+}
+.form-zvonok label{
+    color: white;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.form-zvonok input{
+	padding:10px 15px;
+	margin-top:10px;
+}
+.form-zvonok label span{
+	color:#7AE45F;
+}
+.form-zvonok .bot-send-mail{
+	padding:15px;
+	margin-top:10px;
+    background:none;
+    border:none;
+    text-transform:uppercase;
+    color:#fff;
+	font-weight:bold;
+	background-color:#7AE45F;
+	cursor:pointer;
+	border:3px #875798;
+	border-radius: 5px;
+}
+.form-zvonok .bot-send-mail:hover{
+	color:#875798;
+    border:3px #7AE45F;
+	background-color:#7AE45F;
+}
